@@ -1,0 +1,283 @@
+/* General */
+@font-face
+{
+	font-family: "poppins";
+	src: url('Poppins/Poppins-Regular.ttf') format('ttf');
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #073a5e;
+	background-image: url("img/background_1_pink.jpg");
+	background-size: cover;
+	margin: 0;
+}
+
+h1
+{
+	color: #b78551;
+	font-family: "Poppins", sans-serif;
+}
+
+a
+{
+	font-family: Arial, "Poppins-Thin";
+	color: #da8f00;
+}
+
+p:hover
+{
+	cursor: default;
+}
+
+h1:hover
+{
+	cursor: default;
+}
+
+li:hover
+{
+	cursor: default;
+}
+
+.section-heading
+{
+	color: #b78551;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	font-size: 3rem;
+}
+
+#about-me p
+{
+	color: #73400b;
+}
+
+.about-me-button
+{
+	color: #73400b;
+}
+
+p
+{
+	font-family: "Poppins", sans-serif;
+}
+
+.body-text
+{
+	color: #b78551;
+	font-size:20px;
+}
+/* General */
+
+/* Top of the page */
+
+#logo
+{
+	flex-grow: 1;
+}
+
+#logo img
+{
+	width: 20em;
+	margin-left: 3em;
+}
+
+#navbar-container
+{
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	/* background-color: rgb(153 190 233 / 55%); */
+}
+
+#navbar
+{
+	display: flex;
+	color: #010101;
+	font-size: 30px;
+	justify-content: space-around;
+	flex-grow: 1;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+.nav-item
+{
+	text-decoration: none;
+	color: #814a04;
+}
+
+#top-page
+{
+	background-color: #07043c;
+	background-image: url(img/rocks.gif);
+	background-size: 100%;
+	background-position: bottom;
+}
+
+#welcome
+{
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 10px 20px;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 10em;
+}
+
+#welcome-text-container
+{
+	display: flex;
+	flex-grow: 2;
+	justify-content: flex-end;
+	align-items: center;
+}
+/* Top of the page */
+
+/* About me */
+#about-me
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#about-me>img
+{
+	width: 20%;
+	clip-path: circle();
+	box-shadow: 0 5px 20px 10px rgba(0,0,0,0.3);
+}
+
+.about-me-text
+{
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+}
+
+.about-me-button
+{
+	background: none;
+	border: none;
+	color: #814a04;
+	font-size: 2rem;
+	/* border: 2px solid beige; */
+}
+
+.about-me-selected
+{
+	border-bottom: #8b6c08f6 solid 5px;
+}
+
+#about-me-achievements-education
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 17%;
+}
+
+#about-me-achievements-education > button:hover
+{
+	cursor: pointer;
+}
+/* About me */
+
+
+/* Projects */
+.current-project
+{
+	display: flex;
+	gap: 4rem;
+	transition: all 1s;
+}
+
+#projects
+{
+	display: flex;
+	height: 70vh;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#projects-carousel
+{
+	flex-grow: 0;
+	/* border: 2px solid black; */
+	
+}
+
+.project
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.project img
+{
+	width: 20em;
+}
+
+.project li
+{
+	color:#b78551;
+	font-size: 1.3vw;
+}
+/* Projects */
+
+/* Links */
+#links
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color:rgba(255, 136, 0, 0.03);
+	flex-direction: column;
+	margin-top: 20%;
+	padding-bottom: 5%;
+	border-radius: 0 15%;
+}
+
+.link-item
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#link-icons
+{
+	display: flex;
+}
+
+#link-icons img
+{
+	width: 20%;
+}
+
+.link-item > a
+{
+	color:#b78551;;
+	font-size: 2rem;
+	text-decoration: none;
+}
+/* Links */
+
+#references
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
