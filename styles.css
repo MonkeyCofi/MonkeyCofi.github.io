@@ -30,6 +30,12 @@ a
 	color: #da8f00;
 }
 
+li
+{
+	font-family: "Poppins";
+	font-weight:400;
+}
+
 p:hover
 {
 	cursor: default;
