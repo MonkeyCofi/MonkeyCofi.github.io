@@ -190,6 +190,39 @@ p
 {
 	cursor: pointer;
 }
+
+#experience ul
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.meter-bar
+{
+	display: flex;
+}
+
+.meter
+{
+	background-color:#5F5F5F;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+}
+
+.meter-colored
+{
+	background-color:#8b6c08f6;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+}
+
+#experience li
+{
+	text-decoration: none;
+	list-style: none;
+}
 /* About me */
 
 
